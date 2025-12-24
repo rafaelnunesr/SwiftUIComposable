@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIComposableApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView(navigator: Navigator())
+            ContentView()
         }
     }
 }
