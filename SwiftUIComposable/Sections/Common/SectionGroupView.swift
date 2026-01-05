@@ -13,7 +13,6 @@ protocol SectionViewModelRefreshable {
 
 protocol SectionView: View, Identifiable {
     var id: UUID { get }
-    @ViewBuilder @MainActor @preconcurrency var body: Self.Body { get }
     func refresh()
 }
 
