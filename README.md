@@ -83,7 +83,7 @@ Simplifies the container logic
 
 ## 🗂️ Key File: SectionGroupView.swift
 
-SectionGroupView.swift is the central piece of this approach.
+`SectionGroupView` is the central piece of this approach.
 
 #### Responsibilities:
 
